@@ -1,0 +1,59 @@
+1. ML
+http://www.amazon.com/dp/1986487520
+http://www.perfmath.com/ml/ml_liu_text_math_formulas.pdf
+http://www.perfmath.com/ml/ml_liu_text_colored_images.pdf
+http://www.perfmath.com/ml/ml_quantitative_20.zip
+http://www.perfmath.com/ml/ml_liu_text_solutions.pdf
+http://www.perfmath.com/ml/ML_Liu_Multi_Layer_Perceptron_Fuel_Economy.pdf
+http://www.perfmath.com/ml/CNN_Examples_with_Caffe_and_YOLOv3_and_PyTorch.pdf
+http://www.perfmath.com/ml/ml01_gemm_yolov3.zip
+http://www.perfmath.com/ml/RNN_LSTM_Example_Implementations_with_Keras_TensorFlow.pdf
+http://www.perfmath.com/ml/ml_liu_TOC.pdf
+2. AIC
+http://www.amazon.com/Algorithms-Implementations-C-Quantitative-Approach/dp/1793147426
+http://www.perfmath.com/algorithms/algorithms_c_henry.zip
+
+3. C++
+http://www.amazon.com/Programming-Quantitative-Approach-Henry-Liu/dp/1492364045
+http://www.perfmath.com/cpp/cpp_liu_code.zip
+http://www.perfmath.com/cpp/cpp_liu_appendix_A.pdf
+
+4. JPS
+http://www.amazon.com/Java-Performance-Scalability-Quantitative-Approach/dp/1482348012
+http://www.perfmath.com/java/java_perf_liu_code.zip
+http://www.perfmath.com/java/Harp.zip
+http://www.perfmath.com/java/appendices-e-f.pdf
+
+5. Spring
+http://www.amazon.com/Developing-Enterprise-Applications-Spring-End-/dp/148028470X
+http://www.perfmath.com/spring/soba_zip/soba4.2_download_1.zip
+http://www.perfmath.com/spring/spring4-jquery-ajax-demo.pdf
+http://www.perfmath.com/spring/soba_zip/soba4_download_1.zip
+http://perfmath.com/spring4-updates.htm
+http://www.perfmath.com/spring/mynotes_zip/MyNotes.zip
+http://www.perfmath.com/spring/mn_db_scripts.zip
+
+6. Hadoop
+http://www.amazon.com/Hadoop-Essentials-End---End-Approach/dp/1495496120
+http://www.perfmath.com/hadoop2/my_hadoop-2.6.0_download.zip
+http://www.perfmath.com/hadoop2/my_hadoop-2.2.0.zip
+http://perfmath.com/hadoop2_Updates.htm
+
+7. iOS8
+http://www.amazon.com/iOS-Programming-End---End-Approach/dp/1502861844/ref=sr_1_21?s=books&ie=UTF8&qid=1413592252&sr=1-21&keywords=ios+8+programming
+http://www.perfmath.com/ios8/ios8-programming-liu.zip
+
+8 iO7
+http://www.amazon.com/dp/1514849879
+
+9. JCP
+http://www.amazon.com/dp/1514849879
+http://www.perfmath.com/jcp/jcp.zip
+http://www.perfmath.com/jcp/colored_images.pdf
+http://www.perfmath.com/jcp/henry-java-concurrency-chapter1.pdf
+
+10. SPS
+http://www.amazon.com/Software-Performance-Scalability-Quantitative-Approach/dp/0470462531/f
+http://www.perfmath.com/sps/perfBasic.zip
+
+

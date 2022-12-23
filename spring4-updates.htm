@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Updated on April 28, 2014 (webflow related changes)</h1>
+
+<p>SpringSource somehow recently removed the spring-webflow-2.4.xsd from its website and now it 
+must be changed to spring-webflow.xsd. Please download the latest soba project or make the 
+following changes if you have already downloaded and set up soba project on your IDE:</p>
+
+<p>Locate the *.xml file in each of the folders in src/main/webapp/WEB-INF/flow/{customerDetails, 
+customerSearch, onlineService and transferMoney} and replace spring-webflow-2.4.xsd with 
+spring-webflow.xsd.</p>
+
+<p>Also, to make transferMoney webflow example work, you need to modify the ehcache.xml file in the src/main/resources 
+folder so that the maxElementsInMemory="10000" for both defaultCache and aclCache. Otherwise, transferMoney will 
+not succeed and you will find errors in soba.log file like "ERROR disk.DiskStorageFactory Disk Write of 
+org.springframework.security.acls.domain.ObjectIdentityImpl[Type: 
+com.perfmath.spring.soba.model.domain.BankingTx; Identifier: 443759348] failed: net.sf.ehcache.CacheException: 
+Failed to serialize element due to ConcurrentModificationException. This is frequently the result of inappropriately 
+sharing thread unsafe object (eg. ArrayList, HashMap, etc) between threads."</p>
+
+<h1>Updated on April 21, 2014 (two jackson dependencies missing)</h1>
+
+<p>Please make the following two changes and SOBA 4 should work in your environment:</p>
+
+<p>1) Locate the soba-webflow.xml file in the folder src/main/webapp/WEB-INF and change 2.4.xsd to 
+2.3.xsd. It's very strange that somehow recently Spring removed the 2.4.xsd file and I even couldn't 
+run SOBA sample in my environment anymore. It has to be changed to 2.3. I have had 2.4 for 
+SOBA3.2GA and it worked just fine.</p>
+
+<p>2) Add the following two dependencies to the project pom.xml file, rebuild and deploy SOBA as 
+described in the book.  </p>
+
+<textarea rows="12" cols="50" style="border:yes;font-size: 15px" >
+<dependency>
+<groupId>org.codehaus.jackson</groupId>
+<artifactId>jackson-core-asl</artifactId>
+<version>1.9.13</version>
+</dependency>
+<dependency>
+<groupId>org.codehaus.jackson</groupId>
+<artifactId>jackson-mapper-asl</artifactId>
+<version>1.9.13</version>
+</dependency>
+</textarea>
+<p>After you make these two changes, SOBA should run in your environment as well.</p>
+</body>
+</html>
